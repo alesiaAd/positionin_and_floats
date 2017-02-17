@@ -1,0 +1,130 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    height: 2000px;
+}
+.main {
+    margin: 0 auto;
+    position: relative;
+    width: 575px;
+}
+
+.content {
+    z-index: 6;
+    padding: 20px 80px 40px 25px;
+    position: relative;
+}
+h1 {
+    font-weight: normal;
+    font-size: 24px;
+}
+.cup {
+    float: left;
+    margin-right: 25px;
+}
+p {
+    font-size:12px;
+}
+.joke {
+    float: right;
+    margin-left: 0;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 50px;
+}
+.right-pic {
+    float: right;
+}
+.top-pic {
+    margin-bottom: 10px;
+}
+.center-p {
+    text-align: center;
+}
+
+.layer {
+    top: 0;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #000000;
+}
+.first-layer {
+    background-color: #ebebeb;
+    z-index: 5;
+}
+.second-layer {
+    background-color: #cccccc;
+    margin-left: 20px;
+    margin-top: 20px;
+    z-index: 3;
+}
+.third-layer {
+    background-color: #acacac;
+    margin-left: 40px;
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.bookmark{
+    top: 0;
+    position: absolute;
+    border: 2px solid #000000;
+    width: 120px;
+    height: 30px;
+    border-radius: 0 10px 10px 0;
+}
+.first-bookmark {
+    z-index: 7;
+    background-color: #f68e56;
+    margin-left: 490px;
+    margin-top: 40px;
+}
+.second-bookmark {
+    z-index: 4;
+    margin-left: 450px;
+    margin-top: 40px;
+    background-color: #39b54a;
+}
+.third-bookmark {
+    z-index: 2;
+    margin-left: 410px;
+    margin-top: 40px;
+    background-color: #00aeef;
+}
+
+.share {
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+
+}
+.border {
+    position: relative;
+}
+.share-this {
+    position: absolute;
+    top: -10px;
+    font-size: 16px;
+    left: 8px;
+}
+.social {
+    padding: 1px 10px 1px 10px;
+    margin: 5px 3px 10px;
+}
+.sprites {
+    position: absolute;
+    top: 35px;
+    left: 8px;
+}
+.facebook {
+    background: #fbaf5d url("../img/social-media-icons-the-circle-set.png") no-repeat 2% center;
+}
+.twitter {
+    background: #fbaf5d url("../img/social-media-icons-the-circle-set.png") no-repeat 50% center;
+}
+.instagram {
+    background: #fbaf5d url("../img/social-media-icons-the-circle-set.png") no-repeat 98% center;
+}
+
